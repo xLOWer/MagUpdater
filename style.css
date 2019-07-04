@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0
+}
+
+#tdiv {
+	padding: 0 15px;
+	width: 500px;
+	margin: 5px
+}
+
+#tdiv,
+.update_done,
+.update_fail,
+.update_process {
+	padding-top: 20px;
+	color: #000;
+	width: 50%;
+	height: 80px;
+	font-size: 30px;
+}
+
+.update_done {
+	background-color: #b2f27d
+}
+
+.update_fail {
+	background-color: #f2573c
+}
+
+.sd {
+	font-size: 15px
+}
+
+#citd {
+	font-weight: 700;
+	background: #e55;
+	padding: 50px 0;
+	font-size: 2.5em;
+	color: #000
+}
+
+#pdc {
+	height: 30px;
+	width: 45%;
+	background: #ddd
+}
+
+#pd {
+	height: 30px;
+	width: 0%;
+	background: #95d852;
+	float: left
+}
+
+#sbs {
+	background: #ddd;
+	width: 450px;
+	padding: 25px 45px;
+	font-size: 2.5em;
+	margin: 10px
+}
+
+#sbs:hover {
+	background: #ccf
+}
